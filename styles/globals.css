@@ -1,16 +1,41 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ------------- */
+
+@layer base {
+  html {
+    direction: rtl;
+    background-color: white;
+    font-family: "Vazir";
+    overflow: hidden;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/*  */
+@layer components {
+  .navbar__link_hover {
+    @apply transition-all ease-out duration-200 hover:text-[#fd6131];
+  }
+  .orange__btn {
+    @apply text-white font-semibold py-2 px-6 bg-[#fd6131] rounded-md hover:shadow-md transition-all ease-out duration-200 hover:scale-95;
+  }
 }
 
-* {
-  box-sizing: border-box;
+.submenu-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.submenu-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 280ms, transform 300ms;
+}
+.submenu-exit {
+  transform: translateY(0);
+}
+.submenu-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 250ms, transform 300ms;
 }
