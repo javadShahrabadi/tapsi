@@ -61,5 +61,5 @@ const NavbarBottom = () => {
     </header>
   );
 };
-
+  
 export default NavbarBottom;
