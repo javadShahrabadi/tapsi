@@ -5,7 +5,7 @@ const BlogNews = () => {
   return (
     <section className="max-w-7xl mx-auto mt-20 px-6 xl:px-0">
       <h2 className="text-3xl font-bold">تازه‌ترین‌های وبلاگ تپسی</h2>
-      <ul className="pt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <ul className="pt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <NewsItems
           image="https://blog.tapsi.ir/wp-content/uploads/2022/03/A68CB9F1-AA36-4B75-99B7-DE475A5FFBDF.jpeg"
           title="تخفیف ویژه دیجی‌کالا جت برای کاربران تپسی"

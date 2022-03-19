@@ -8,6 +8,8 @@ import WorkServices from "@/components/home/WorkServices";
 import GradientText from "@/components/home/GradientText";
 import Adventage from "@/components/home/Adventage";
 import BlogNews from "@/components/home/BlogNews";
+import TapsiIran from "@/components/home/TapsiIran";
+import Footer from "@/components/layout/Footer";
 // ----------------
 const index = () => {
   return (
@@ -20,6 +22,8 @@ const index = () => {
       <GradientText />
       <Adventage />
       <BlogNews />
+      <TapsiIran />
+      <Footer />
     </Layout>
   );
 };
