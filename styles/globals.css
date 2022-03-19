@@ -10,6 +10,42 @@
     font-family: "Vazir";
   }
 }
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb152;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffa538;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* scrollbar */
 
 /*  */
 @layer components {
@@ -47,3 +83,21 @@
   transition: opacity 250ms, transform 300ms;
 }
 /* ------ */
+.my-node-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.my-node-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+.my-node-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.my-node-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
