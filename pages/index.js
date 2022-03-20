@@ -11,7 +11,7 @@ import BlogNews from "@/components/home/BlogNews";
 import TapsiIran from "@/components/home/TapsiIran";
 import Footer from "@/components/layout/Footer";
 // ----------------
-const index = () => {
+const HomePage = () => {
   return (
     <Layout>
       <Navbar />
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default HomePage;

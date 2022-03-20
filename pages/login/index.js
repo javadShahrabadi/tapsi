@@ -1,12 +1,13 @@
 import React from "react";
 import Login from "@/components/login/Login";
+import Layout from "@/components/layout/Layout";
 //-------------------
-const index = () => {
+const LoginPage = () => {
   return (
-    <React.Fragment>
+    <Layout title="معرفی راننده تپسی و دریافت آنلاین پاداش | TAPSI">
       <Login />
-    </React.Fragment>
+    </Layout>
   );
 };
 
-export default index;
+export default LoginPage;

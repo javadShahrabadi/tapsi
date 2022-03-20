@@ -8,6 +8,7 @@
     direction: rtl;
     background-color: white;
     font-family: "Vazir";
+    scroll-behavior: smooth;
   }
 }
 /* scrollbar */

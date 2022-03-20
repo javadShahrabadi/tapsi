@@ -9,7 +9,7 @@ const ProblemRegister = () => {
   return (
     <form
       onSubmit={submitFormHandler}
-      className="max-w-2xl mx-auto flex flex-col items-center space-y-5 mt-10 px-8 lg:px-0"
+      className="max-w-2xl mx-auto flex flex-col items-center space-y-5 my-10 px-8 lg:px-0"
     >
       <Input type="text" name="username" placeholder="نام و نام خانوادگی" />
       <Input type="tel" name="phone_number" placeholder="شماره تلفن" />

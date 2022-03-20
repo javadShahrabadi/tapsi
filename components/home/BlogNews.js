@@ -3,7 +3,7 @@ import NewsItems from "./NewsItems";
 
 const BlogNews = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-20 px-6 xl:px-0">
+    <section className="max-w-7xl mx-auto mt-20 px-6 xl:px-0 mb-20">
       <h2 className="text-3xl font-bold">تازه‌ترین‌های وبلاگ تپسی</h2>
       <ul className="pt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <NewsItems

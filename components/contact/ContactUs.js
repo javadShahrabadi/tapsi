@@ -14,7 +14,7 @@ import {
 
 const ContactUs = () => {
   return (
-    <section className="flex flex-col lg:flex-row items-start max-w-5xl mx-auto justify-between mt-10">
+    <section className="flex flex-col lg:flex-row items-start max-w-5xl mx-auto justify-between my-10">
       <div className="lg:w-1/2 w-full px-5 lg:px-0">
         <select
           className="block

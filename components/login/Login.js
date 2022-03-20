@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Accordian from "../ui/Accordian";
+import Link from "next/link";
 // -----------
 const Login = () => {
   const formSubmitHandler = (event) => {
@@ -11,7 +12,14 @@ const Login = () => {
       {/* navbar */}
       <nav className="cursor-pointer w-full flex justify-center border-b border-gray-100 py-5 shadow-sm fixed top-0 z-10">
         <div className="w-[130px] h-[28px]">
-          <Image src="/LogoBlue.svg" width={130} height={28} alt="tapsi-logo" />
+          <Link href="/">
+            <Image
+              src="/LogoBlue.svg"
+              width={130}
+              height={28}
+              alt="tapsi-logo"
+            />
+          </Link>
         </div>
       </nav>
       <div className="mt-[49px] max-w-3xl mx-auto flex flex-col items-center overflow-y-hidden">

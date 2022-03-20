@@ -1,7 +1,7 @@
 const TapsiIran = () => {
   return (
     <section className="bg-[#F8F8F9] hidden lg:block">
-      <div className="max-w-7xl  mx-auto mt-20 py-10 px-10">
+      <div className="max-w-7xl mx-auto py-10 px-10">
         <h2 className="text-3xl font-bold ">تپسی در ایران</h2>
         <div className="pt-8 grid grid-cols-5 lg:grid-cols-8 justify-items-center lg:justify-items-start gap-y-8">
           <div className="flex flex-col space-y-2">

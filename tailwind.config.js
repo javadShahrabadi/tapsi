@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     backgroundImage: {
       "pack-banner": "url('/banner.webp')",
+      "banner-work": "url('/banner-bg.png')",
+      extend: {},
     },
-    extend: {},
+    plugins: [],
   },
-  plugins: [],
 };
