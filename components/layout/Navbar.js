@@ -11,11 +11,11 @@ const Navbar = () => {
     <React.Fragment>
       <header className="bg-[#F8F8F8] py-4 md:px-3 w-full fixed top-0 z-20 px-5 xl:px-0 border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="w-[102px] h-[22px] cursor-pointer">
-            <Link href="/">
+          <Link href="/">
+            <div className="w-[102px] h-[22px] cursor-pointer">
               <Image src="/logo.png" alt="tapsi-logo" width={102} height={22} />
-            </Link>
-          </div>
+            </div>
+          </Link>
           {/* submenu icon */}
           <div
             className="md:hidden"
@@ -40,9 +40,12 @@ const Navbar = () => {
                   خدمات کسب‌وکارها
                 </li>
               </Link>
-              <li className="cursor-pointer navbar__link_hover">
-                فرصت‌های شغلی
-              </li>
+              <Link href="/careers">
+                <li className="cursor-pointer navbar__link_hover">
+                  فرصت‌های شغلی
+                </li>
+              </Link>
+
               <li className="cursor-pointer navbar__link_hover">وبلاگ</li>
             </ul>
             <div className="hidden md:block">
@@ -77,7 +80,11 @@ const Navbar = () => {
                 خدمات کسب‌وکارها
               </li>
             </Link>
-            <li className="cursor-pointer navbar__link_hover">فرصت‌های شغلی</li>
+            <Link href="/careers">
+              <li className="cursor-pointer navbar__link_hover">
+                فرصت‌های شغلی
+              </li>
+            </Link>
             <li className="cursor-pointer navbar__link_hover pb-4">وبلاگ</li>
           </ul>
         </nav>

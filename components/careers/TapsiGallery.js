@@ -4,19 +4,42 @@ import Image from "next/image";
 const TapsiGallery = () => {
   return (
     <section className="max-w-7xl mx-auto px-4 xl:px-0">
-      <div className="grid grid-col-1 lg:grid-cols-8 justify-items-center gap-x-4 gap-y-4">
-        <div className="lg:col-span-3 w-full h-[400px] lg:h-[480px] relative">
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0">
+        <div>
           <Image
             src="https://careers.tapsi.ir/assets/af266b68.webp"
-            layout="fill"
-            className="rounded-md "
+            width={544}
+            height={499}
+            alt="gallery-pic1"
+            className="rounded-md"
           />
         </div>
-        <div className="lg:col-span-5 relative w-full h-[350px] lg:h-[480px]">
+        <div className="w-full md:w-auto md:pr-4">
           <Image
             src="https://careers.tapsi.ir/assets/9141929a.webp"
+            width={762}
+            height={499}
             alt="gallery-pic2"
-            layout="fill"
+            className="rounded-md"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-4 mt-4">
+        <div>
+          <Image
+            src="https://careers.tapsi.ir/assets/0a527c5b.webp"
+            width={643}
+            height={499}
+            alt="gallery-pic3"
+            className="rounded-md"
+          />
+        </div>
+        <div className="w-full md:w-auto md:pr-4">
+          <Image
+            src="https://careers.tapsi.ir/assets/e19769ea.webp"
+            width={663}
+            height={499}
+            alt="gallery-pic4"
             className="rounded-md"
           />
         </div>
