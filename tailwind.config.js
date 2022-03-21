@@ -7,6 +7,7 @@ module.exports = {
     backgroundImage: {
       "pack-banner": "url('/banner.webp')",
       "banner-work": "url('/banner-bg.png')",
+      "road-pic": "url('/road.jpg')",
       extend: {},
     },
     plugins: [],
