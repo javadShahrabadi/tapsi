@@ -9,6 +9,9 @@ const nextConfig = {
       "careers.tapsi.ir",
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
