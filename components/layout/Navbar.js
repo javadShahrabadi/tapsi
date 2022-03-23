@@ -45,8 +45,9 @@ const Navbar = () => {
                   فرصت‌های شغلی
                 </li>
               </Link>
-
-              <li className="cursor-pointer navbar__link_hover">وبلاگ</li>
+              <Link href="/blog">
+                <li className="cursor-pointer navbar__link_hover">وبلاگ</li>
+              </Link>
             </ul>
             <div className="hidden md:block">
               <Button text="دانلود تپسی" />
@@ -85,7 +86,9 @@ const Navbar = () => {
                 فرصت‌های شغلی
               </li>
             </Link>
-            <li className="cursor-pointer navbar__link_hover pb-4">وبلاگ</li>
+            <Link href="/blog">
+              <li className="cursor-pointer navbar__link_hover pb-4">وبلاگ</li>
+            </Link>
           </ul>
         </nav>
       </CSSTransition>
